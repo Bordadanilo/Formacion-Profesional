@@ -1,7 +1,7 @@
 // Crea una variable de tipo string.
 // Reemplaza el valor de null por el correspondiente.
 
-const nuevoString = "hola";
+const nuevoString = "Holaa";
 
 
 module.exports = nuevoString;

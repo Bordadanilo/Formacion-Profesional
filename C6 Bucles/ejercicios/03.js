@@ -6,7 +6,5 @@ function obtenerMayor(x, y) {
   if (x>y) return x;
    else return y;
 }
-console.log(obtenerMayor(7, 3))
-console.log(obtenerMayor(7, 9))
-console.log(obtenerMayor(2, 2))
+
 module.exports = obtenerMayor;

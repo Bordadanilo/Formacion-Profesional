@@ -5,8 +5,5 @@ function esVerdadero(valor) {
   if (valor == true) return "Soy verdadero";
    else return "Soy falso";
 }
-console.log(esVerdadero(true))
-console.log(esVerdadero(false))
-console.log(esVerdadero(true))
-console.log(esVerdadero(false))
+
 module.exports = esVerdadero;

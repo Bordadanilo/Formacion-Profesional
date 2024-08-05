@@ -6,8 +6,5 @@ function mayoriaDeEdad(edad) {
 if (edad>=18) return "Allowed";
  else return "Not allowed";
 }
-console.log(mayoriaDeEdad(12))
-console.log(mayoriaDeEdad(30))
-console.log(mayoriaDeEdad(17))
-console.log(mayoriaDeEdad(20))
+
 module.exports = mayoriaDeEdad;

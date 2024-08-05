@@ -9,5 +9,4 @@ function obtenerResto(x, y) {
   return resultado;
 }
 
-
 module.exports = obtenerResto;

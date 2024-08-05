@@ -5,7 +5,5 @@ function esVerdaderoYFalso(booleano1, booleano2) {
   if (booleano1==true && booleano2==true) return true;
    else return false;
 }
-console.log(esVerdaderoYFalso(true, true))
-console.log(esVerdaderoYFalso(true, false))
-console.log(esVerdaderoYFalso(false, false))
+
 module.exports = esVerdaderoYFalso;

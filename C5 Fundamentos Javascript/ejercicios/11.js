@@ -9,8 +9,5 @@ function sonIguales(x, y) {
   if (x===y) return true;
     else return false;
 }
-console.log(sonIguales(3, 3))
-console.log(sonIguales(3, 5))
-console.log(sonIguales(8, 3))
-console.log(sonIguales(7, 7))
+
 module.exports = sonIguales;

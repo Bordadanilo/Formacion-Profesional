@@ -5,7 +5,5 @@ function tieneTresDigitos(num) {
   if (num>99 && num<1000) return true;
    else return false;
 }
-console.log(tieneTresDigitos(340))
-console.log(tieneTresDigitos(99))
-console.log(tieneTresDigitos(999))
+
 module.exports = tieneTresDigitos;

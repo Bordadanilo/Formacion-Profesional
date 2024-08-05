@@ -6,5 +6,5 @@ function esParYDivisiblePorTres(a) {
   if (a%2==0 && a%3==0) return true;
    else return false;
 }
-console.log(esParYDivisiblePorTres(30))
+
 module.exports = esParYDivisiblePorTres;

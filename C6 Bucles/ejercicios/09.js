@@ -9,7 +9,5 @@ function conection(status) {
    else if (status===2) return "Away";
     else return "Offline";
 }
-console.log(conection(1))
-console.log(conection(2))
-console.log(conection(3))
+
 module.exports = conection;
